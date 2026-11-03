@@ -1,0 +1,28 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.tera-sarah/ndaa-ai",
+  "title": "NDAA.AI FY2027 Tracker",
+  "description": "Public FY2027 NDAA tracker: bill status, section text, House vs Senate diffs, and news from ndaa.ai",
+  "version": "0.1.1",
+  "websiteUrl": "https://ndaa.ai/mcp",
+  "repository": {
+    "url": "https://github.com/Terahertz-Inc/ndaa-mcp",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "ndaa-mcp",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.ndaa.ai/mcp"
+    }
+  ]
+}
