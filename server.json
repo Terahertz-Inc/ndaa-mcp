@@ -1,6 +1,6 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.tera-sarah/ndaa-ai",
+  "name": "ai.ndaa/mcp",
   "title": "NDAA.AI FY2027 Tracker",
   "description": "Public FY2027 NDAA tracker: bill status, section text, House vs Senate diffs, and news from ndaa.ai",
   "version": "0.1.1",
