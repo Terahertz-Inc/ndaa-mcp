@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ndaa",
+  "version": "0.1.1",
+  "description": "Public FY2027 NDAA tracker: bill status, section text, House vs Senate diffs, news and guides.",
+  "author": {
+    "name": "Terahertz, Inc.",
+    "email": "support@ndaa.ai",
+    "url": "https://ndaa.ai"
+  },
+  "homepage": "https://ndaa.ai",
+  "repository": "https://github.com/Terahertz-Inc/ndaa-mcp",
+  "license": "MIT",
+  "keywords": [
+    "ndaa",
+    "congress",
+    "legislation",
+    "defense",
+    "mcp"
+  ]
+}
