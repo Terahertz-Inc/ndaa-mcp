@@ -10,5 +10,12 @@
   "homepage": "https://ndaa.ai",
   "repository": "https://github.com/Terahertz-Inc/ndaa-mcp",
   "license": "MIT",
-  "keywords": ["mcp", "ndaa", "defense", "congress", "legislation"]
+  "keywords": [
+    "mcp",
+    "ndaa",
+    "defense",
+    "congress",
+    "legislation"
+  ],
+  "logo": "assets/logo.svg"
 }
