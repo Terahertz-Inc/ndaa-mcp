@@ -1,0 +1,21 @@
+{
+  "name": "ndaa-ai",
+  "displayName": "NDAA.AI FY2027 Tracker",
+  "description": "Public FY2027 NDAA tracker: bill status, section text, House vs Senate diffs, and news from ndaa.ai.",
+  "version": "0.1.1",
+  "author": {
+    "name": "Terahertz, Inc.",
+    "email": "support@ndaa.ai"
+  },
+  "homepage": "https://ndaa.ai",
+  "repository": "https://github.com/Terahertz-Inc/ndaa-mcp",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "ndaa",
+    "defense",
+    "congress",
+    "legislation"
+  ],
+  "logo": "assets/logo.svg"
+}
