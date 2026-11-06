@@ -10,7 +10,7 @@
 | Transport | Streamable HTTP |
 | Auth | None. Public, read-only |
 | npm (stdio) | [`ndaa-mcp`](https://www.npmjs.com/package/ndaa-mcp) |
-| Registry name | `io.github.tera-sarah/ndaa-ai` (see [`server.json`](server.json)) |
+| Registry name | `ai.ndaa/mcp` (see [`server.json`](server.json)) |
 
 ## Tools
 
