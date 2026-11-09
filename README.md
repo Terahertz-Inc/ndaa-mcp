@@ -1,5 +1,10 @@
 # NDAA.AI MCP Server: FY2027 NDAA tracker for AI agents
 
+[![npm](https://img.shields.io/npm/v/ndaa-mcp.svg)](https://www.npmjs.com/package/ndaa-mcp)
+[![MCP Registry](https://img.shields.io/badge/MCP%20Registry-listed-green)](https://registry.modelcontextprotocol.io/v0.1/servers?search=ai.ndaa%2Fmcp)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+
 [Model Context Protocol](https://modelcontextprotocol.io) (MCP) server for [NDAA.AI](https://ndaa.ai), the public tracker for the FY2027 National Defense Authorization Act (H.R. 8800 / S. 4784). Get bill status, section text, House vs Senate differences and NDAA news in Claude, Cursor or any MCP client, with ndaa.ai links to cite.
 
 **Website:** [ndaa.ai](https://ndaa.ai) · **MCP page:** [ndaa.ai/mcp](https://ndaa.ai/mcp)

@@ -1,0 +1,10 @@
+{
+  "name": "ndaa",
+  "version": "0.1.1",
+  "description": "NDAA.AI MCP: public FY2027 NDAA bill status, section text, House vs Senate diffs, and news.",
+  "mcpServers": {
+    "ndaa": {
+      "httpUrl": "https://mcp.ndaa.ai/mcp"
+    }
+  }
+}
