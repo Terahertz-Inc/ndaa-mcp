@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NDAA.AI MCP on GitHub</title>
+  <meta name="description" content="Public GitHub home of the NDAA.AI Model Context Protocol packaging. The FY2027 NDAA tracker lives at ndaa.ai.">
+  <link rel="icon" href="logo.svg" type="image/svg+xml">
+  <style>
+    :root {
+      --ink: #161410;
+      --paper: #f4efe4;
+      --rule: #c45c26;
+      --muted: #5c574e;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 3rem 1.25rem 2rem;
+    }
+
+    header {
+      width: min(40rem, 100%);
+      border-top: 3px solid var(--ink);
+      border-bottom: 1px solid var(--ink);
+      padding: 0.7rem 0 0.85rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .mark {
+      display: flex;
+      align-items: center;
+      gap: 0.65rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      font-size: 0.72rem;
+      font-weight: 700;
+    }
+
+    .mark img {
+      width: 1.7rem;
+      height: 1.7rem;
+      border: 1px solid var(--ink);
+    }
+
+    .kicker {
+      font-size: 0.72rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    main {
+      width: min(40rem, 100%);
+      flex: 1;
+      padding: 2.4rem 0 2rem;
+    }
+
+    h1 {
+      margin: 0 0 1.1rem;
+      font-size: clamp(1.8rem, 4.5vw, 2.55rem);
+      line-height: 1.15;
+      font-weight: 700;
+    }
+
+    .lede {
+      margin: 0 0 1.75rem;
+      font-size: 1.12rem;
+      line-height: 1.5;
+      color: var(--ink);
+    }
+
+    .cta {
+      display: block;
+      background: var(--ink);
+      color: var(--paper);
+      text-decoration: none;
+      padding: 1.05rem 1.2rem 1.15rem;
+      margin: 0 0 1.4rem;
+    }
+
+    .cta:hover,
+    .cta:focus-visible {
+      background: var(--rule);
+      outline: none;
+    }
+
+    .cta-label {
+      display: block;
+      font-family: ui-sans-serif, system-ui, sans-serif;
+      font-size: 0.68rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      opacity: 0.78;
+      margin-bottom: 0.35rem;
+    }
+
+    .cta-url {
+      font-size: 1.55rem;
+      letter-spacing: 0.02em;
+    }
+
+    .note {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.98rem;
+      line-height: 1.5;
+    }
+
+    .note a {
+      color: var(--ink);
+    }
+
+    footer {
+      width: min(40rem, 100%);
+      border-top: 1px solid var(--ink);
+      padding-top: 0.85rem;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    footer a { color: var(--ink); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="mark">
+      <img src="logo.svg" alt="">
+      <span>Terahertz, Inc.</span>
+    </div>
+    <div class="kicker">Public MCP repo</div>
+  </header>
+
+  <main>
+    <h1>GitHub packaging for the FY2027 NDAA tracker</h1>
+    <p class="lede">
+      This Pages site is only a pointer to the product. Bill status, section
+      text, House&nbsp;vs Senate diffs, and NDAA news are published on the
+      tracker itself &mdash; not in this repository.
+    </p>
+    <a class="cta" href="https://ndaa.ai">
+      <span class="cta-label">Product site</span>
+      <span class="cta-url">ndaa.ai</span>
+    </a>
+    <p class="note">
+      The Model Context Protocol server that sits in this repo is documented at
+      <a href="https://ndaa.ai/mcp">ndaa.ai/mcp</a>.
+      Remote endpoint: <code>https://mcp.ndaa.ai/mcp</code>.
+    </p>
+  </main>
+
+  <footer>
+    MIT License ·
+    <a href="https://github.com/Terahertz-Inc/ndaa-mcp">Terahertz-Inc/ndaa-mcp</a>
+  </footer>
+</body>
+</html>

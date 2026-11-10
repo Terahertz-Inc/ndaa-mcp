@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="NDAA.AI">
+  <rect width="512" height="512" fill="#111111"/>
+  <!-- Oswald Bold "N" (the masthead face), exact glyph outline at 1000 upem,
+       flipped from font Y-up to SVG Y-down and centered. -->
+  <path d="M60 0V810H186L352 420V810H500V0H379L213 420V0Z"
+        transform="translate(145.4 416) scale(0.395 -0.395)"
+        fill="#ffffff"/>
+</svg>
